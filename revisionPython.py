@@ -63,3 +63,20 @@ q11 = 0
 for s in user_input:
     q11+=1
 print("c",q11,len(user_input))
+
+
+type1 = ("&",1,"fad",'fa')
+type2 = (1,2,43,5)
+type3 = ("dada",'ada')
+type4 = "dada",'dada'
+type5 = "dadad"
+type6 = 414141
+type7 = 'fsfs'
+type8 = ['ada',"eqeq",'3131']
+type9 = [31313]
+print(type(type1),type(type2),type(type3),type(type4),type(type5),type(type6),type(type7),type(type8),type(type9))
+
+num2 = 0.25 *4
+num3 = 1
+num4 = str(4)
+print(type(num2),num2,num3,type(num3),num4,type(num4))

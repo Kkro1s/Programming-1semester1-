@@ -1,9 +1,14 @@
 import re
 dob = 'Users Date of Birth is: 17/01/1975'
+dob2 = '_-'
 p = '\d+'
+p2 = '.\w+'
+p3 = '[\_-]{2}'
+p4 = '{5}'
 result = re.findall(p,dob)
-
-print(result)
+result2 = re.findall(p3,dob2)
+# result3 = re.findall(p4,dob2)
+print(result,result2)
 
 
 """
